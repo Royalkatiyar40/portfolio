@@ -386,7 +386,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 25vh;
 }
 
 .contact-info-upper-container {
@@ -423,10 +423,41 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 10vh;
   margin: 0 1rem;
 }
 
 footer p {
   text-align: center;
+}
+.submit button{
+  border: none;
+  outline: none;
+  background-color: #00ffff;
+  color: black;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.form-content{
+  width: fit-content;
+  padding: 80px 40px;
+}
+
+.form-content div:not(.submit){
+  margin: 25px 0px;
+  border-bottom: 1px solid rgb(39, 90, 200);
+}
+
+input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 6px 4px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
 }
